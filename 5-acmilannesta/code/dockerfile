@@ -1,0 +1,14 @@
+FROM python:3.5
+ADD init.py /
+RUN sudo apt install virtualenv
+RUN virtualenv -p /usr/bin/python3.5 --system-site-packages py3env
+RUN source py3env/source/activate
+RUN pip install tensorflow-gpu keras pandas numpy keras-bert tqdm boto3 keras-xlnet
+RUN pip install --force-reinstall sklearn
+RUN wget -P /wdata https://storage.googleapis.com/bert_models/2018_10_18/uncased_L-12_H-768_A-12.zip
+RUN unzip /wdata/uncased_L-12_H-768_A-12.zip
+RUN wget -P /wdata https://storage.googleapis.com/bert_models/2019_05_30/wwm_uncased_L-24_H-1024_A-16.zip
+RUN unzip /wdata/wwm_uncased_L-24_H-1024_A-16.zip
+RUN wget -P /wdata https://storage.googleapis.com/bert_models/2018_10_18/uncased_L-24_H-1024_A-16.zip
+RUN unzip /wdata/uncased_L-24_H-1024_A-16.zip
+CMD ["python3.5", "./init.py"]
