@@ -1,0 +1,8 @@
+torch==1.2.0
+pandas
+numpy
+nltk
+tensorboardX
+tqdm
+transformers==2.1.1
+sklearn

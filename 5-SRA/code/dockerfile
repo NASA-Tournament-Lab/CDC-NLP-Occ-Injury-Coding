@@ -1,0 +1,21 @@
+FROM pytorch/pytorch:1.2-cuda10.0-cudnn7-devel
+
+RUN curl -O -# https://storage.googleapis.com/sra1_topcoder_cdc/final_solution/models.tar.gz &&  tar -xvzf models.tar.gz && rm models.tar.gz
+
+COPY requirements.txt .
+
+RUN pip install -r requirements.txt
+
+COPY src/ .
+
+COPY train.sh .
+
+RUN chmod +x train.sh
+
+COPY test.sh .
+
+RUN chmod +x test.sh
+
+EXPOSE 8080
+
+CMD "/bin/sh"
