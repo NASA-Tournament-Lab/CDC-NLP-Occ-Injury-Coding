@@ -36,8 +36,8 @@ More information on 19 competitors in 9 teams is provided in this [announcement]
 ## Results of Extramural (international) Competition
 Using an Inter-Agency Agreement (IAA) between NASA's [CoECI](https://www.nasa.gov/offices/COECI/index.html) and [NIOSH](https://www.cdc.gov/niosh/contact/im-dsr.html), [TopCoder](https://www.topcoder.com/) was contracted and hosted an international [competition](https://www.topcoder.com/challenges/020c0f34-1f05-4d58-9530-680280a2994b) to develop natural language processing algorithms. International competition had 388 registrands from 26 countries. About 32% of competitors where from the USA and 21% from India. A total of 20 universities where represented in the competition. Competitors used [NEISS-Work](https://wwwn.cdc.gov/wisards/workrisqs/) data from 2012 through 2017, which included a total of 229,820 observations. Competitors had to used unstructured injury narratives to code "two-digit OIICS-event" codes. TopCoder had a total of 961 total unique submissions of algorithms to be scored and ranked. Here are the prize-winners, listed by ranking (including weighted F1 score):
 1. (wF1=89.20) **Raymond van Venetië** from Netherlands used and ensemble classifer with ALBERT and DAN models. 
-2. (wF1=89.12) **2nd Pavel Blinov** from Russia used used an ensemble classifer with BERT, XLNet, and RoBERT models.
-3. (wF1=89.09) **Zhuoyu Wei** from China used an ensemble classifer that included RoBERT models. 
+2. (wF1=89.12) **2nd Pavel Blinov** from Russia used used an ensemble classifer with BERT, XLNet, and RoBERTa models.
+3. (wF1=89.09) **Zhuoyu Wei** from China used an ensemble classifer that included RoBERTa models. 
 4. (wF1=88.99) **Zhensheng Wang** from USA used an ensemble classifier that included XLNet and BERT models.
 5. (wF1=88.93) **A Sai Sravan** from India used an ensemble classifier that included BERT and RoBERTa models. 
 
