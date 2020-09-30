@@ -3,35 +3,35 @@ This project was motivated by the desire to expand open innovation and by respon
 
 ## //m_BrainGineers
 Our team of 16 federal employees from 7 federal agencies was led by [Dr. Siordia](https://www.linkedin.com/in/carlos-siordia-phd-03b152b9/) and [Dr. Bertke](https://www.linkedin.com/in/steve-bertke-3bb49a9a/) in close collaboration with [Mr. Measure](https://www.linkedin.com/in/ameasure) and [Dr. Russ](https://www.linkedin.com/in/daniel-russ-9541aa15/). Federal agencies partipating included the [CDC](https://www.cdc.gov/), [BLS](https://www.bls.gov/), [NIH](https://www.nih.gov/), [CENSUS](https://www.census.gov/), [CPSC](https://www.cpsc.gov/), [FEMA](https://www.fema.gov/), and the [OSHA](https://www.osha.gov/). All team members contributed and are listed by including their host federal agency and center/institute/office(CIO):
- - Carlos Siordia PhD (CDC-NIOSH)  
- - Steve Bertke PhD (NIOSH-NIOSH) 
- - Audrey Reichard MPH (CDC-NIOSH) 
- - Syd Webb PhD (CDC-NIOSH)
- - Alexander Measure MS (BLS-OSHS) 
- - Daniel Russ PhD (NIH-CIT) 
- - Stacey Marovich MHI (CDC-NIOSH) 
- - Kelly Vanoli BS (CDC-NIOSH)
- - Mick Ballesteros PhD (CDC-NCIPC)
- - Jeff Purdin MS (CDC-NIOSH)
- - Melissa Friesen PhD (NIH-NCI) 
- - Machell Town PhD (CDC-NCCDPHP) 
- - Lynda Laughlin PhD (CENSUS-SEHSD)
- - Tom Schroeder MS (CPSC-DHIDS)  
- - Jim Heeschen MS (FEMA-USFA-NFDC)
- - Miriam Schoenbaum PhD (OSHA-OSA) 
- - Ari Miniño MPH (CDC-NCHS) 
+ - **Carlos Siordia** PhD (CDC-NIOSH)  
+ - **Steve Bertke** PhD (NIOSH-NIOSH) 
+ - **Audrey Reichard** MPH (CDC-NIOSH) 
+ - **Syd Webb** PhD (CDC-NIOSH)
+ - **Alexander Measure** MS (BLS-OSHS) 
+ - **Daniel Russ** PhD (NIH-CIT) 
+ - **Stacey Marovich** MHI (CDC-NIOSH) 
+ - **Kelly Vanoli** BS (CDC-NIOSH)
+ - **Mick Ballesteros** PhD (CDC-NCIPC)
+ - **Jeff Purdin** MS (CDC-NIOSH)
+ - **Melissa Friesen** PhD (NIH-NCI) 
+ - **Machell Town** PhD (CDC-NCCDPHP) 
+ - **Lynda Laughlin** PhD (CENSUS-SEHSD)
+ - **Tom Schroeder** MS (CPSC-DHIDS)  
+ - **Jim Heeschen** MS (FEMA-USFA-NFDC)
+ - **Miriam Schoenbaum** PhD (OSHA-OSA) 
+ - **Ari Miniño** MPH (CDC-NCHS) 
 
 ## Results of Intramural (within CDC) Competition
 The CDC has been using machine learning for decades as discussed in this [blog](https://blogs.cdc.gov/genomics/2020/09/17/artificial-intelligence/). Our project represents the first time the CDC hosted an intramural NLP marathon. The 19 intra-mural competitors are each extraordinary analyst! For our competition, they had the courage to put their reputation on the line. They procured management approval for participation and devoted many hours to developing their solution. Even those new to NLP performed admirably. We are grateful for their contributions. More information on 19 competitors in 9 teams is provided in this [announcement](https://www.cdc.gov/niosh/updates/upd-10-24-19.html) and this [blog](https://blogs.cdc.gov/niosh-science-blog/2020/02/26/ai-crowdsourcing/). Competitors had to code unstructured work-related injury narratives to 48 unique [OIICS](https://wwwn.cdc.gov/wisards/oiics/Trees/MultiTree.aspx?Year=2012) two-digit "event" codes. Competitors has access to a [NEISS-Work](https://wwwn.cdc.gov/wisards/workrisqs/) data files from 2012 through 2016 with 191,835 observations. Results are listed by ranking (including weighted F1 score):
 1. (wF1=87.77) **Scott Lee PhD** in CDC's Center for Surveillance, Epidemiology, and Laboratory Services (CSELS) used an ensemble classifier blending four BERT neural network models.
-2. (wF1=87.15) **Mohammed Khan MS and Bill Thompson PhD** from CDC-NCHHSTP's Division of Viral Hepatitis (DVH) used Recurrent Neural Network with Fastai on Codalab.  
-3. (wF1=84.47) **Jasmine Varghese MS, Benjamin Metcalf MA, and Yuan Li PhD** from CDC-NCIRD's Division of Bacterial Diseases (DBD) used Regularized Logistic Regression with custom word corpus. 
+2. (wF1=87.15) **Mohammed Khan MS** and **Bill Thompson PhD** from CDC-NCHHSTP's Division of Viral Hepatitis (DVH) used Recurrent Neural Network with Fastai on Codalab.  
+3. (wF1=84.47) **Jasmine Varghese MS, Benjamin Metcalf MA,** and **Yuan Li PhD** from CDC-NCIRD's Division of Bacterial Diseases (DBD) used Regularized Logistic Regression with custom word corpus. 
 4. (wF1=84.45) **Keming Yuan MS** from CDC-NCIPC's Division of Violence Prevention (DVP) used Long Short-Term Memory Recurrent Neural Network. 
 5. (wF1=83.32) **Naveena Yanamala PhD** from CDC-NIOSH's Health Effects Laboratory Division (HELD) used Linear Support Vector Model post custom standardization.
 6. (wF1=82.75) **Li Lu MD PhD** from CDC's Office of the Chief Operating Officer (OCOO) used an ensemble classifier using Regularized Logistic Regression, Multi-Layer Perceptron, and Linear Support Vector Models.
 7. (wF1=81.47) **Joan Braithwaite MSPH** in CDC's National Center for Chronic Disease Prevention & Health Promotion (NCCDPHP) used Linear Support Vector Model post lemmatization. 
 8. (wF1=81.00) **Donald Malec PhD** from CDC-NCHS' Division of Research and Methodology (DRM) used Support Vector Machine.
-9. (wF1=77.45) **José Tomás Prieto PhD and Faisal Reza PhD** from CDC-CSELS' Division of Scientific Education & Professional Development (DSEPD) used Regularized Logistic Regression—Lasso.
+9. (wF1=77.45) **José Tomás Prieto PhD** and **Faisal Reza PhD** from CDC-CSELS' Division of Scientific Education & Professional Development (DSEPD) used Regularized Logistic Regression—Lasso.
 
 
 
